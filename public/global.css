@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Casta';
+    src: url('http://localhost:5000/fonts/casta/casta-thin.woff2') format('woff2'),
+         url('http://localhost:5000/fonts/casta/casta-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+	--black: #000000;
+	--white: #FFFFFF;
+	--brown: #716362;
+	--gray: #777777;
+	--golden: #968B63;
+	--white-e: #EEEEEE;
+	--white-b: #B8B9B9;
+    --white-c: #F9F9FA;
+	--black-b: #17191C;
+}
+
+
+* {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 16px;
+    vertical-align: baseline;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 16px;
+    vertical-align: baseline;
+}
+
+iframe {
+    width: 0px!important;
+    height: 0px!important;
+    display: none!important;
+}
+
+body, html, .Content_Wrapper {
+    overflow-x: hidden;
+}
+
+
+@keyframes animBtn {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
